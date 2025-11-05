@@ -1,23 +1,20 @@
-# 🦠 Painel de Monitoramento — Dengue e Chikungunya (PI)
+# 🦠 Painel Dengue e Chikungunya — Piauí
 
-Aplicação desenvolvida em **Python + Streamlit** para visualização e análise dos casos de **Dengue** e **Chikungunya** no Piauí.  
-O painel permite acompanhar indicadores, distribuição geográfica, séries temporais e características demográficas dos casos.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **Python 3.11+**
-- **Streamlit** — Interface web interativa
-- **Pandas** — Manipulação de dados
-- **Plotly / Altair** — Visualizações gráficas
-- **GeoJSON / Folium** — Mapas e análises geográficas
+Aplicação em **Python + Streamlit** para análise e visualização dos casos de **Dengue** e **Chikungunya** no Piauí.  
+Traz indicadores, gráficos, filtros por ano e distribuição demográfica.
 
 ---
 
-## ⚙️ Como Executar
+### 🚀 Tecnologias
+- Streamlit • Pandas • Altair • Plotly  
+- Python 3.11+  
+- Dados CSV locais (`data/`)
 
-### 1️⃣ Clonar o repositório
+---
+
+### ⚙️ Como executar
 ```bash
 git clone https://github.com/Lucasbig6/dengue_chikun.git
 cd dengue_chikun
+pip install -r requirements.txt
+streamlit run app.py
