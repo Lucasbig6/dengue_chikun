@@ -1,0 +1,12 @@
+# Ignorar ambiente virtual
+.venv/
+
+# Ignorar arquivos de dados grandes
+data/
+*.csv
+*.xlsx
+
+# Arquivos temporários
+__pycache__/
+*.pyc
+.DS_Store
